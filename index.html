@@ -1,24 +1,34 @@
 <html>
   <head>
-    <title>Alexa Vita Test Page</title>
+    <title>Alexa Vita's Webpage</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>A simple example of a webpage; a sort of resume...</header>
+    <header>Launchcode LC101 - Alexa Vita's Page</header>
     <main>
       <h3>So, my name is Alexa Vita. I'm an aspiring coder with some little experience, as well as several other things, I guess. Do I use too many commas?</h3>
-      <h4>Here's a pic of me from my facebook page:</h4>
-      <img src="/Users/alexvita/Documents/lc101/html-me-something/images/me1.jpg" alt="Sleepy Alexa" height="100" width="100">
-      <em>I get sleepy sometimes</em>
-      <h1>The Basics:</h1>
-      <strong>Birthdate:</strong><p>February 27th, 1991; 25 years old</p>
-      <strong>Gender:</strong><p>Female</p>
-      <strong>Location:</strong><p>Providence, Rhode Island; USA</p>
-      <strong>Occupation:</strong><p>Self-employed; Freelance Writer; Performer; Coder?</p>
+      <div class ="info" id="picture">
+        <h4>Here's a pic of me from my facebook page:</h4>
+        <img src="/Users/alexvita/Documents/lc101/html-me-something/images/me1.jpg" alt="Sleepy Alexa" height="300" width="300">
+        <br>
+        <em>I get sleepy sometimes</em>
+      </div>
+      <div class ="info" id="stats">
+        <strong>Name:</strong><p>Alexa Vita</p>
+        <strong>Birthdate:</strong><p>February 27th, 1991; 25 years old</p>
+        <strong>Gender:</strong><p>Female</p>
+        <strong>Location:</strong><p>Providence, Rhode Island; USA</p>
+        <strong>Occupation:</strong><p>Self-employed; Freelance Writer; Performer; Coder?</p>
+      </div>
     </main>
-    <article>
-      <h1>A note:</h1>
-      <p>I'm well aware that this is threadbare. Got a feeling we'll be adding more functionality here as time goes on. How exciting! &hearts;</p>
-    </article>
+    <div class ="info" id="note">
+      <article>
+        <p>I'm well aware that this is threadbare. Got a feeling we'll be adding more functionality here as time goes on. How exciting!</p>
+      </article>
+    </div>
+    <div id="symbol">
+       <p>&hearts;</p>
+    </div>
     <footer>&copy; Alexa Vita 2017</footer>
   </body>
 </html>
